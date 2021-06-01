@@ -13,8 +13,9 @@ public class Exemplo01 {
         System.out.println(" O nome digitado foi: " + nome);
         
         Object[] itens = { "Maçã", "Pera", "Banana"};
-        Obejct itemSelecionado = JOptionPane.showImputDialog, null, "Escolha 1 item", "Itens");
-                   JOptionPane.INFORMATION_MESSAGE, null, itens, itens [1]);
+        Object itemSelecionado = JOptionPane.showImputDialog, null, "Escolha 1 item", "Itens");
+        JOptionPane.INFORMATION_MESSAGE, null, itens, itens [1]);
+        
         System.out.println("Item selecionado: "+itemSelecionado.toString);
 	}
 
