@@ -14,6 +14,7 @@ public class Exemplo02 {
 	        mensagem = "Digite apenas 1 caracter!";
 //		if (sexo.toUpperCase().equals("M")) {
 			mensagem = "Masculino";
+			
 		}
 		else if (sexo.toUpperCase().equals("F")) {  
 			mensagem = "Feminino";
